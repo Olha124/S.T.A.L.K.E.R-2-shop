@@ -6,3 +6,9 @@ body{
     h1 {
         color:rgb(255, 147, 46)
     }
+    
+    .top-text{
+        text-align: center;
+        margin-bottom: auto; /* Сдвигает этот блок к верхней части */
+        font-weight: bold;
+    }
