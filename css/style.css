@@ -4,7 +4,7 @@ body{
     }
     img {
         width: auto;
-        height: 65vh;
+        height: 55vh;
         object-fit: cover;
         border-radius: 10px;
     }
