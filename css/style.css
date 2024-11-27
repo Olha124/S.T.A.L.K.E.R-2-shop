@@ -1,16 +1,25 @@
 body{
 
-background-color: black
-
-}
-
-h1 {
-
-   color:rgb(253, 84, 0);
-
-}
-
-p{
-
-    color:white
-}
+    background-color: black
+    }
+    img {
+        width: auto;
+        height: 65vh;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    h2 {
+        color:rgb(255, 147, 46)
+    }
+    
+    .flex-container {
+        display: flex;  /* Включає Flexbox */
+        justify-content: center;  /* Вирівнює по горизонталі */
+        align-items: center;      /* Вирівнює по вертикалі */
+        height: 10vh;  /* Встановлює висоту контейнера на всю висоту екрана */
+      }
+      
+      a {
+        font-size: 40px;
+        color: #ffffff;
+      }
