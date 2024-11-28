@@ -1,8 +1,39 @@
 body{
+    background-color: black;
 
-    background-color: black
     }
 
     h1 {
         color:rgb(255, 147, 46)
+    }
+
+     .top-text{
+        text-align: center;
+        margin-bottom: auto; /* Сдвигает этот блок к верхней части */
+    }
+
+    h3{
+
+        color:rgb(255, 147, 46)
+    }
+    
+    td{
+        padding: 5px 10px;       /* Отступы внутри ячеек */
+        vertical-align: top;    /* Выравнивание текста по верхнему краю */
+        color:rgb(255, 147, 46)
+    }
+    table {
+        border-collapse: collapse;
+        text-align: center;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: center; /* Центрирование по горизонтали */
+        align-items: center;    /* Центрирование по вертикали */
+        height: 30vh;       
+    }
+    td:first-child {
+        text-align: left;       /* Текст слева в первой колонке */
+    }
+    td:last-child {
+        text-align: right;      /* Текст справа во второй колонке */
     }
