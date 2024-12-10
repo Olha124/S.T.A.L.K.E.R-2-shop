@@ -37,3 +37,25 @@ body{
     td:last-child {
         text-align: right;      /* Текст справа во второй колонке */
     }
+
+    h5{
+        color:rgb(255, 147, 46)
+    }
+    form{
+
+        border-collapse: collapse;
+        text-align: center;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: center; /* Центрирование по горизонтали */
+        align-items: center;    /* Центрирование по вертикали */
+        height: 30vh;      
+    }
+    label{ 
+        color:rgb(255, 147, 46)
+    }
+    a{
+        color:rgb(255, 147, 46);
+        font-size: larger;
+    }
+    li{color:rgb(255, 147, 46);}

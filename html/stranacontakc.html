@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
     <link rel="stylesheet" href="../css/stylecontacts.css">
-    <link rel="stylesheet" href="../css/styleartefakts.css">
+    <link rel="stylesheet" href="../css/stylecontacts.css">
 </head>
 </head>
 <body>
    <div class="top-text"><h1>Stalkere, maš problem? Tak obrať se na nás!</h1></div>
    
-    <table style="font-size: x-large;">
+ <li><a href="../html/strana%201.html">HOME</a></li>
+ <li><a href="../html/strartefaktc.html">ARTEFACTS</a></li>
+
+
+ <div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+    <table style="font-size: x-large; width: 100%; margin-bottom: 30px; border-collapse: collapse;">
         <tr>
-            <td style="text-align: center;">Oli</td>
-            <td style="text-align: center;">Yuri</td>
+            <th style="text-align: center;">Oli</th>
+            <th style="text-align: center;">Yuri</th>
         </tr>
         <tr>
             <td style="text-align: center;">email: frul14@trebesin.cz</td>
@@ -30,4 +35,30 @@
         </tr>
     </table>
 
+    <form style="font-size: larger; display: flex; flex-direction: column; margin-top: 30px;">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="firstName" required />
+
+        <h3>Kdo jste?</h3>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+            <div>
+                <input type="radio" id="radioNovice" name="kdojste" value="Novice" required />
+                <label for="radioNovice">Novice</label>
+            </div>
+            <div>
+                <input type="radio" id="radioStalker" name="kdojste" value="Stalker" />
+                <label for="radioStalker">Stalker</label>
+            </div>
+            <div>
+                <input type="radio" id="radioVeteran" name="kdojste" value="Veteran" />
+                <label for="radioVeteran">Veteran</label>
+            </div>
+            <div>
+                <input type="radio" id="radioMaster" name="kdojste" value="Master" />
+                <label for="radioMaster">Master</label>
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
 </html>  
